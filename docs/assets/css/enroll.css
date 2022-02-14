@@ -3,7 +3,7 @@
     /* border: 2px solid red; */
     height: 656px;
     box-sizing: border-box;
-    background-image: url("/docs/assets/images/enroll_back\ \(2\).jpg");
+    background-image: url("../images/enroll_back\ \(2\).jpg");
     background-size: 90%;
     background-position: 233px;
 }
