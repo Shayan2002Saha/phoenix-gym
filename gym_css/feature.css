@@ -1,0 +1,98 @@
+/* Feature */
+.feature {
+    height: 884px;
+    /* border: 2px solid red; */
+    padding-top: 100px;
+    box-sizing: border-box;
+    background-image: url("/gym_images/feature_back.jpg");
+    background-size: 100%;
+}
+
+.body_header {
+    /* border: 2px solid blue; */
+    width: 38%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.body_header h4 {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(255, 94, 0);
+    font-size: 33px;
+    margin: 22px 0px;
+}
+
+.body_header p {
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+
+.feature_body {
+    /* border: 2px solid green; */
+    width: 85%;
+    margin: 20px auto;
+    position: relative;
+    height: 581px;
+    box-sizing: border-box;
+}
+
+.feature_body .column1 {
+    /* border: 2px solid black; */
+    width: 32%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 17px;
+    height: 518px;
+    box-sizing: border-box;
+}
+
+.feature_body .column2 {
+    /* border: 2px solid black; */
+    width: 32%;
+    display: inline-block;
+    position: absolute;
+    top: 69px;
+}
+
+.feature_body .column2 img {
+    width: 334px;
+    display: block;
+    margin: 0px auto;
+}
+
+.feature_body .column3 {
+    /* border: 2px solid black; */
+    width: 32%;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    height: 518px;
+    box-sizing: border-box;
+}
+
+.feature_body .para {
+    /* border: 2px solid yellow; */
+    margin: 89px 0px;
+}
+
+.feature_body .para a {
+    color: rgb(10, 87, 175);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature_body .para h4 {
+    margin: 23px 0px;
+}
+
+.feature_body .para p {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature_body .para a:hover {
+    color: rgb(241, 97, 0);
+}

@@ -1,0 +1,91 @@
+/* Footer */
+.footer {
+    /* border: 2px solid red; */
+    height: 430px;
+    background-color: rgb(6, 48, 82);
+    box-sizing: border-box;
+    background-image: url("/gym_images/footer_back.jpg");
+    background-size: 100%;
+}
+
+.footer_body {
+    /* border: 2px solid blue; */
+    width: 85%;
+    height: 420px;
+    margin: auto;
+    padding-top: 47px;
+    box-sizing: border-box;
+}
+
+.footer .column1 {
+    /* border: 2px solid black; */
+    width: 25%;
+    float: left;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer p {
+    color: #979797;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer span {
+    color: white;
+    font-size: 17px;
+}
+
+.footer .column2 {
+    /* border: 2px solid black; */
+    float: left;
+    width: 25%;
+    margin: 0px 136px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer .column2 a {
+    text-decoration: none;
+    color: #979797;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.footer .column2 a:hover {
+    color: rgb(253, 117, 6);
+}
+
+.footer .column3 {
+    /* border: 2px solid black; */
+    float: left;
+    width: 25%;
+}
+
+.footer .copyright {
+    /* border: 2px solid green; */
+    float: left;
+    width: 100%;
+    margin-top: 73px;
+    padding-top: 8px;
+    border-top: 1px solid #81818173;
+}
+
+.footer .copyright a {
+    text-decoration: none;
+    color: rgb(253, 117, 6);
+}

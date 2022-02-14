@@ -1,0 +1,80 @@
+/* Trainers */
+.trainers {
+    height: 1000px;
+    /* border: 2px solid red; */
+    padding-top: 100px;
+    box-sizing: border-box;
+    background-image: url("/gym_images/trainer_back\ \(2\).jpg");
+    background-size: 100%;
+}
+
+.trainer_body {
+    width: 85%;
+    margin: 100px auto;
+    /* border: 2px solid blue; */
+    height: 630px;
+    box-sizing: border-box;
+    color: rgb(179, 179, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trainers .body_header p {
+    color: rgb(179, 179, 179);
+}
+
+.trainer_body .column1 {
+    width: 27%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.trainer_body .column2 {
+    width: 27%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 0px 102px;
+    text-align: center;
+}
+
+.trainer_body .column3 {
+    width: 27%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.trainer_body .column1 img {
+    width: 311px;
+    display: block;
+    margin: 0px auto;
+}
+
+.trainer_body .column2 img {
+    width: 291px;
+    display: block;
+    margin: 0px auto;
+}
+
+.trainer_body .column3 img {
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+}
+
+.trainer_body a {
+    color: rgb(94, 157, 230);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trainer_body h4 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.trainer_body a:hover {
+    color: rgb(241, 97, 0);
+}

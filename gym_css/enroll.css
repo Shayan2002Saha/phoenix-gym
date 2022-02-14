@@ -1,0 +1,84 @@
+/* Enroll Form */
+.enroll {
+    /* border: 2px solid red; */
+    height: 656px;
+    box-sizing: border-box;
+    background-image: url("/gym_images/enroll_back\ \(2\).jpg");
+    background-size: 90%;
+    background-position: 233px;
+}
+
+.enroll h4 {
+    /* border: 2px solid blue; */
+    font-family: 'Russo One', sans-serif;
+    color: rgb(255, 94, 0);
+    font-size: 33px;
+    width: 25.04%;
+    margin: 0px auto;
+    padding-top: 86px;
+    margin-bottom: 58px;
+}
+
+.enroll form {
+    /* border: 2px solid green; */
+    margin: 0px auto;
+    width: 85%;
+}
+
+.enroll div {
+    /* border: 2px solid yellow; */
+    margin: 54px 0px;
+}
+
+.enroll input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-right: 38px;
+    margin-left: 12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.enroll input.text {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 25%;
+    padding-bottom: 12px;
+}
+
+.enroll input.address {
+    width: 55%;
+}
+
+.enroll input.text:focus {
+    outline: none;
+}
+
+.enroll input.radio {
+    cursor: pointer;
+}
+
+.enroll label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.enroll input.btn {
+    font-size: 18px;
+    background-color: rgb(253, 117, 6);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px 31px;
+    line-height: 19.5px;
+    cursor: pointer;
+    border: none;
+}
+
+.enroll input.btn:hover {
+    background-color: rgb(255, 145, 1);
+    color: rgb(1, 40, 85);
+}
+
+.enroll input.btn:active {
+    background-color: rgb(245, 190, 146);
+}

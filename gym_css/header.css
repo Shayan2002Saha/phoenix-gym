@@ -1,0 +1,116 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header bar */
+.header {
+    /* border: 2px solid red; */
+    background-color: rgb(6 49 90 / 83%);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 7px;
+}
+
+/* Header logo */
+.logo {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    width: 15%;
+    margin-left: 101px;
+}
+
+.logo img {
+    width: 56px;
+    display: block;
+    margin: 0px auto;
+}
+
+.gym_name {
+    text-align: center;
+    padding-top: 9px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+.gym_name span {
+    color: rgb(255, 132, 17);
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/* Navigation bar */
+.navbar_menu {
+    display: inline-block;
+    /* border: 2px solid green; */
+    width: 55%;
+    position: absolute;
+    top: 28px;
+    margin-left: 25px;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0px 48px;
+}
+
+.navbar a {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.navbar a:hover {
+    color: rgb(241, 131, 28);
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Get started button */
+.get_started {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 34px;
+    right: 139px;
+}
+
+.get_started a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(253, 117, 6);
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 13px 38px;
+    line-height: 19.5px;
+    display: block;
+}
+
+.get_started a:hover {
+    background-color: rgb(255, 145, 1);
+    color: rgb(1, 40, 85);
+}
